@@ -1,0 +1,32 @@
+zadatak:
+knjiznica - projekt 
+
+h2 baza - zaminit sa mysql ili posgres???
+
+User - ...
+Book - id, isbn (string), title, authorID, year, note
+Author - id, name, family name, genre
+
+
+UserBooks - UserID, bookID, loanTime, note
+AuthorBooks - AuthorID, bookID, genre, date, note
+
+
+Done:
+Lombok - check for optional args in constructor
+Constraint/validation - deklaracija u entity, provjera u controlleru
+Mapstruct
+Actuator / Enabling actuators
+
+
+
+TODO:
+Prominit pathove u http requestovima da odgovaraju standardu
+Popravit exception controller
+
+
+
+Optional TODO:
+Custom metrics / implement counter for request (successful and unsuccessful)
+check if validation needs to be on dto object as well
+
